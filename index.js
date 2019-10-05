@@ -1,8 +1,6 @@
-var url = "https://citizensbank.openbankproject.com/obp/v4.0.0/root";
+function getUserInfo() {
 
-console.log(url);
-
-function getUserInfo(url) {
+  var url = "https://citizensbank.openbankproject.com/obp/v4.0.0/root";
 
   console.log(url);
   
