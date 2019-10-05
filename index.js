@@ -11,7 +11,7 @@ function getUserInfo(url) {
     .then(data => renderTable(data))
     .catch (error => {
       var errorMsg = "API error";
-      console.error(errorMsg);
+      console.error(error);
       document.getElementById("results").innerHTML = error;
     });
 }
