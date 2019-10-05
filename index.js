@@ -15,8 +15,7 @@ function getUserInfo() {
 }
 
  function renderTable(obj) {
-      var results = obj;
 
-      document.getElementById("results").innerHTML = results;
+      document.getElementById("results").innerHTML = obj.organisation;
 
   };
