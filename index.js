@@ -8,7 +8,6 @@ function getUserInfo(url) {
   
    fetch(url)
     .then(response => response.json())
-    .then(data => renderTable(data))
     .catch (error => {
       var errorMsg = "API error";
       console.error(error);
@@ -16,10 +15,10 @@ function getUserInfo(url) {
     });
 }
 
- function renderTable(obj) {
-      var results = obj;
+//  function renderTable(obj) {
+//       var results = obj;
 
-      document.getElementById("results").innerHTML = results;
+//       document.getElementById("results").innerHTML = results;
 
 
-  };
+//   };
