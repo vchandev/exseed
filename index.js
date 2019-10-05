@@ -7,7 +7,7 @@ function getUserInfo(url) {
   console.log(url);
   
    fetch(url)
-    .then(response => response.json())
+    .then(response => console.log(response))
     .catch (error => {
       var errorMsg = "API error";
       console.error(error);
