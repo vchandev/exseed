@@ -1,27 +1,30 @@
 <!DOCTYPE html>
 <html>
+
   <head>
-    <meta charset="UTF-8">
-    <title>title</title>
-    <link rel="stylesheet" href="styles.css">
-    <script type="text/javascript" src="index.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script data-require="jquery@*" data-semver="3.2.1" src="https://cdn.jsdelivr.net/npm/jquery@3.2.1/dist/jquery.min.js"></script>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js"></script>
   </head>
+
   <body>
-    <p>Search for users</p>
+    <div id="main">
+        <img src="exseed.jpg" alt="logo" height="300" width="300"> 
+        <h1>exSEED</h1>
+        <h3>Personal Trainer for Financial Health</h2>
+
+        <br>
     
-    <!-- <input type="text" id="usernum"> -->
+        <button type="button" class="btn btn-success" id='getinfo_btn' type='button'>Get Account Info</button>
     
-    <button value="Submit" onclick = "getUserInfo()">Submit</button>
-    <!-- <button value="Submit" onclick = "getUserInfo(url)">Submit</button> -->
-    
-    <br>
-    <br>
-    <br>
-    
-    <pre id="results">
-       
-    </pre>
-    
+        <br>
+        <br>
+
+        <p id="results">
+        </p>
+    </div>
+
+
   </body>
+
 </html>
